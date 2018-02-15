@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100A52F60850DD3472FA83CDFDD07473521" Name="Quote" Group="Custom Content Types" Description="My Content Type" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{1099ff0c-7b3d-41c7-bddf-8c42cef009af}" DisplayName="Quote Author" Required="FALSE" Name="QuoteAuthor" />
+      <FieldRef ID="{2a2bf1b4-fb20-41ce-9500-d0bc60064033}" DisplayName="Quote Text" Required="FALSE" Name="QuoteText" />
+    </FieldRefs>
+  </ContentType>
+</Elements>
